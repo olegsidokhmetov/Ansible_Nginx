@@ -1,9 +1,6 @@
-# Ansible_Nginx
-
 Install nginx service with Ansible
 
-Playbook file
-
+**Playbook file**
 root@ip-172-31-11-19:/etc/ansible/playbooks# nano nginx.yaml
 ---
 - name: Configure nginx
@@ -19,7 +16,7 @@ root@ip-172-31-11-19:/etc/ansible/playbooks# nano nginx.yaml
       service: name=nginx state=restarted
 
 
-Log of installation
+**Log of installation**
 root@ip-172-31-11-19:/etc/ansible/playbooks# ansible-playbook nginx.yaml
 
 PLAY [Configure nginx] *************************************************************************************************************************************
@@ -38,7 +35,7 @@ PLAY RECAP *********************************************************************
 
 
 
-Check status nginx on server 15.188.146.84 
+**Check status nginx on server 15.188.146.84**
 root@ip-172-31-2-64:/usr/share/nginx/html# systemctl status nginx
 ● nginx.service - A high performance web server and a reverse proxy server
      Loaded: loaded (/lib/systemd/system/nginx.service; enabled; vendor preset: enabled)
@@ -57,3 +54,5 @@ Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: nginx.service: Succeeded.
 Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: Stopped A high performance web server and a reverse proxy server.
 Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: Starting A high performance web server and a reverse proxy server...
 Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: Started A high performance web server and a reverse proxy server.
+
+
