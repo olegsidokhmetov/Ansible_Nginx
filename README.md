@@ -56,5 +56,3 @@ Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: nginx.service: Succeeded.
 Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: Stopped A high performance web server and a reverse proxy server.
 Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: Starting A high performance web server and a reverse proxy server...
 Feb 20 19:24:02 ip-172-31-2-64 systemd[1]: Started A high performance web server and a reverse proxy server.
-
-
