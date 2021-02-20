@@ -3,6 +3,7 @@
 Install nginx service with Ansible
 
 Playbook file
+
 root@ip-172-31-11-19:/etc/ansible/playbooks# nano nginx.yaml
 ---
 - name: Configure nginx
